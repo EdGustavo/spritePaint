@@ -1,0 +1,50 @@
+body {
+    background-color:darkslateblue;
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.canvas {
+    height: 512px;
+    width: 512px;
+    margin: auto;
+    margin-bottom: 32px;
+    aspect-ratio: 1/1;
+    position: relative;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pixel:hover {
+    background-color: gray;
+}
+
+.pixel {
+    background-color: white;
+    width: 64px;
+    height: 64px;
+}
+
+.reset {
+    text-shadow: 1px 1px black;
+    color:white;
+    border-radius: 12px;
+    background-color:gray;
+    position: relative;
+    margin: auto;
+    aspect-ratio: 1/1;
+    height: 48px;
+    width: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
